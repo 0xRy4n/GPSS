@@ -10,7 +10,7 @@
 #   in the metric unit centimeters.
 
 import math
-from Myro import *
+from myro import *
 
 # CONSTANTS #
 FORWARD, F = 1, 1
