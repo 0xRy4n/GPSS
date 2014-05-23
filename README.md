@@ -17,10 +17,12 @@ Moving Straight
 ----------------
         move(direction, distance)
 **direction** - *can be either FORWARD or F to move forwards, or BACK or B to move backwards.*
+
 **distance** - *the desired distance to move in centimeters.*
 
 Turning
 -------
         turn(direction, degrees)
 **direction** - *can be either RIGHT or R to turn right, or LEFT or L to turn left.*
+
 **degrees** - *desired degree to turn to.*
