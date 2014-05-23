@@ -9,3 +9,18 @@ Using the given functions in Myro, it is impossible to get completely consistant
 
 Using GPSS, a user can specify the exact degree they want the Scribbler turn to, or the exact distance they want the Scribbler to move to, and the Scribbler will consitantly reproduce the same results regardless of battery voltage.
 
+Documentation
+=============
+There are only two precedures that should be called by individuals using GPSS. All measurements are done in centimeters.
+
+Moving Straight
+----------------
+        move(direction, distance)
+**direction** - *can be either FORWARD or F to move forwards, or BACK or B to move backwards.*
+**distance** - *the desired distance to move in centimeters.*
+
+Turning
+-------
+        turn(direction, degrees)
+**direction** - *can be either RIGHT or R to turn right, or LEFT or L to turn left.*
+**degrees** - *desired degree to turn to.*
