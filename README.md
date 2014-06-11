@@ -13,6 +13,15 @@ Documentation
 =============
 There are only two precedures that should be called by individuals using GPSS. All measurements are done in centimeters.
 
+Setup
+-----
+To use GPSS, simply place the *GPSS.py* file either in your Python disribution's module library directory, or, in the same directory as the file you want to use it with. After this is done, you may simply import GPSS normally. Please make sure to import Myro **before** importing GPSS. 
+
+Your imports should look something like this:
+
+        from myro import *
+        from GPSS import *
+
 Moving Straight
 ----------------
         move(direction, distance)
