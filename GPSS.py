@@ -29,7 +29,7 @@ LEFT, L = -10, -10
 def calcDPS():
     wheelRadius = 3.96508
     batVolt = getBattery()
-    rpm = ((batVolt - 1.45) * 6.666666666666666666666666666667)
+    rpm = 20.02256 * batVolt - 100.29672
     if rpm < 20:
         rpm = 20
     rps = rpm / 60
