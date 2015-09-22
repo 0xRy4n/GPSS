@@ -1,3 +1,5 @@
+NOTICE: The Calico version of Myro has been updated and GPSS is no longer relevant.
+
 GPSS is a Precise Scribbling System
 ======
 Scribbling with Precision
