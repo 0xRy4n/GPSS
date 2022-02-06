@@ -1,7 +1,5 @@
 # Module Name:  GPSS - GPSS is a Precise Scribbling System
-# Author:       Ryan J Gordon
-#                   Contact Email:  RyanJeffreyGordon@gmail.com
-#                   Website:        www.RJGordon.net
+# Author:       Ryan Gordon
 
 #                ~ Scribbling with Precision ~
 #   GPSS allows for precise movement of a Scribbler 2 Robot by allowing a user to
